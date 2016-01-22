@@ -1,5 +1,7 @@
 == README
 
+{<img src="https://gemnasium.com/victormilitao/simplekan.svg" alt="Dependency Status" />}[https://gemnasium.com/victormilitao/simplekan]
+
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
