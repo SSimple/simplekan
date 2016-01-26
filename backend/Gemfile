@@ -1,0 +1,50 @@
+source 'https://rubygems.org'
+ruby "2.2.3"
+
+gem "rails", "4.2.5"
+gem "pg"
+gem "sass-rails", "~> 4.0.3"
+gem "uglifier", ">= 1.3.0"
+gem "coffee-rails", "~> 4.0.0"
+gem "jquery-rails"
+gem "jbuilder", "~> 2.0"
+gem "sdoc", "~> 0.4.0",          group: :doc
+gem "grape"
+gem "grape-active_model_serializers"
+gem "grape-swagger-rails"
+gem "rack-cors", require: "rack/cors"
+gem "figaro", "1.1.1"
+
+group :development do
+  gem "better_errors"
+  gem "meta_request"
+  gem "quiet_assets"
+  gem "spring"
+  gem "web-console", "~> 2.2"
+  gem "guard-rspec", "~> 4.6"
+  gem "guard-zeus", "~> 2.0"
+  gem "guard", "~> 2.13"
+  gem "guard-livereload", "~> 2.5"
+  gem "rack-livereload", "~> 0.3"
+  gem "bullet", "~> 4.14"
+  gem "puma", "~> 2.15"
+end
+
+group :development, :test do
+  gem "capybara"
+  gem "capybara-screenshot"
+  gem "database_cleaner"
+  gem "factory_girl_rails"
+  gem "faker"
+  gem "poltergeist"
+  gem "pry-nav"
+  gem "pry-rails"
+  gem "pry-stack_explorer"
+  gem "pry-theme"
+  gem "rspec-rails"
+  gem "shoulda-matchers"
+  gem "spring-commands-rspec"
+  gem "shoulda-callback-matchers"
+  gem "timecop"
+  gem "vcr"
+end
